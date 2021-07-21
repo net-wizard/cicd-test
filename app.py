@@ -1,4 +1,4 @@
-from flask import Flask, url_for,render_template
+from flask import Flask, url_for, render_template
 
 
 
@@ -20,4 +20,4 @@ def contact():
 
 
 if __name__ == '__main__':
-    app.run(debug=False,host='0.0.0.0')
+    app.run(debug=False, host='0.0.0.0')
